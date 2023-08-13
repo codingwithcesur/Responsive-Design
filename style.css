@@ -1,0 +1,20 @@
+.container {
+  color: rgb(20, 17, 48);
+}
+
+.header-btn {
+  border-color: hsl(321, 100%, 78%);
+  background-color: white;
+  color: hsl(321, 100%, 78%);
+}
+
+.top-page-title {
+  font-weight: 700;
+  margin-top: 30vh;
+}
+.top-page-info {
+  font-weight: 400;
+}
+.top-page-btn {
+  background-color: hsl(322, 100%, 66%);
+}
