@@ -21,7 +21,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="header row row-cols-2 mt-5">
+      <div class="header row row-cols-2 my-5 py-3 pb-5">
         <div class="col">
           <img src="images/logo.svg" alt="Huddle logo" />
         </div>
@@ -33,10 +33,9 @@
           </button>
         </div>
       </div>
-      <div class="row"></div>
 
-      <div class="top-page row row-cols-1">
-        <div class="col top-page-title h1 text-center">
+      <div class="top-page row row-cols-1 my-5 py-5">
+        <div class="col top-page-title h1 text-center mt-5">
           Build The Community Your Fans Will Love
         </div>
         <div class="top-page-info col text-center mt-3">
@@ -55,10 +54,14 @@
 
       <div class="screen-mockups row">
         <div class="col">
-          <img src="images/screen-mockups.svg" alt="screen mockups" />
+          <img
+            class="img-fluid"
+            src="images/screen-mockups.svg"
+            alt="screen mockups"
+          />
         </div>
       </div>
-      <div class="community-stats row row-cols-2 ms-5 mt-5">
+      <div class="community-stats row row-cols-2 ms-5 my-5">
         <div class="community-icon col-7">
           <img src="images/icon-communities.svg" alt="communities icon" />
         </div>
@@ -67,14 +70,16 @@
         </div>
         <div class="community-stat col-7 h1">1.4k+</div>
         <div class="community-stat col-3 h1">2.7m+</div>
-        <div class="community-info col-7 h4">Communities Formed</div>
+        <div class="community-info col-7 h4 mb-5 pb-5">Communities Formed</div>
         <div class="community-info col-3 h4">Messages Sent</div>
       </div>
 
-      <div class="info-container d-flex align-items-center row-cols-2">
-        <div class="info-1-container col">
-          <h1 class="info-1-title">Grow Together</h1>
-          <p class="info-1-text">
+      <div class="info-container row row-cols-2 my-5 pt-5">
+        <div
+          class="col info-text-container d-flex flex-column align-content-center justify-content-center"
+        >
+          <h1 class="info-1-title row mt-5 pt-5">Grow Together</h1>
+          <p class="info-1-text row mt-4">
             Generate meaningful discussions with your audience and build a
             <br />
             strong, loyal community. Think of the insightful conversations
@@ -82,13 +87,23 @@
             you miss out on with a feedback form.
           </p>
         </div>
-        <div class="info-1-img-container col">
-          <img
-            class="info-1-img"
-            src="images/illustration-grow-together.svg"
-            alt="Image about growing together"
-          />
-        </div>
+
+        <img
+          class="info-1-img img-fluid col"
+          src="images/illustration-grow-together.svg"
+          alt="Image about growing together"
+        />
+
+        <!-- <div class="info-2-container col">
+          <h1 class="info-2-title">Grow Together</h1>
+          <p class="info-2-text">
+            Generate meaningful discussions with your audience and build a
+            <br />
+            strong, loyal community. Think of the insightful conversations
+            <br />
+            you miss out on with a feedback form.
+          </p>
+        </div> -->
       </div>
     </div>
   </body>

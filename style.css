@@ -8,12 +8,8 @@
   color: hsl(321, 100%, 78%);
 }
 
-.top-page {
-  margin-bottom: 20vh;
-}
 .top-page-title {
   font-weight: 700;
-  margin-top: 30vh;
 }
 .top-page-info {
   font-weight: 400;
@@ -22,19 +18,11 @@
   background-color: hsl(322, 100%, 66%);
 }
 
-.community-stats {
-  margin-bottom: 30vh;
-}
-.community-stat {
-  font-size: 12vh;
-}
 .community-info {
   color: rgb(174, 182, 187);
 }
 
 .info-container {
-  /* display: flex; */
-  /* height: 100vh; */
   background-image: url(/images/bg-section-top-desktop-1.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,7 +30,4 @@
 
 .info-1-title {
   font-weight: 700;
-}
-.info-1-img {
-  height: 60vh;
 }
