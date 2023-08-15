@@ -2,15 +2,15 @@
   color: rgb(20, 17, 48);
 }
 
-.first-page {
-  margin-bottom: 20vh;
-}
 .header-btn {
   border-color: hsl(321, 100%, 78%);
   background-color: white;
   color: hsl(321, 100%, 78%);
 }
 
+.top-page {
+  margin-bottom: 20vh;
+}
 .top-page-title {
   font-weight: 700;
   margin-top: 30vh;
@@ -22,10 +22,9 @@
   background-color: hsl(322, 100%, 66%);
 }
 
-.second-page {
+.community-stats {
   margin-bottom: 30vh;
 }
-
 .community-stat {
   font-size: 12vh;
 }
@@ -33,7 +32,7 @@
   color: rgb(174, 182, 187);
 }
 
-.third-page {
+.info-container {
   /* display: flex; */
   /* height: 100vh; */
   background-image: url(/images/bg-section-top-desktop-1.svg);
