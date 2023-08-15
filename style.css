@@ -3,7 +3,7 @@
 }
 
 .first-page {
-  height: 100vh;
+  margin-bottom: 20vh;
 }
 .header-btn {
   border-color: hsl(321, 100%, 78%);
@@ -23,7 +23,7 @@
 }
 
 .second-page {
-  height: 160vh;
+  margin-bottom: 30vh;
 }
 
 .community-stat {
@@ -35,7 +35,7 @@
 
 .third-page {
   /* display: flex; */
-  height: 100vh;
+  /* height: 100vh; */
   background-image: url(/images/bg-section-top-desktop-1.svg);
   background-repeat: no-repeat;
   background-size: cover;
