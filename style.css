@@ -31,3 +31,7 @@
 .info-title {
   font-weight: 700;
 }
+
+.final-message-btn {
+  background-color: hsl(322, 100%, 66%);
+}
