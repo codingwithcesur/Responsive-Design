@@ -1,5 +1,5 @@
 .container {
-  color: rgb(20, 17, 48);
+  color: hsl(192, 100%, 9%);
 }
 
 .header-btn {
@@ -34,4 +34,17 @@
 
 .final-message-btn {
   background-color: hsl(322, 100%, 66%);
+}
+
+.bottom-info {
+  background-color: hsl(192, 100%, 9%);
+  color: hsl(0, 0%, 100%);
+}
+
+.bottom-btn {
+  background-color: hsl(322, 100%, 66%);
+}
+
+.social-media-icon {
+  width: 2rem;
 }
