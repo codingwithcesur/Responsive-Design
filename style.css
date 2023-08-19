@@ -51,7 +51,7 @@
 }
 
 .bottom-info {
-  background-image: url(images/Bottom-background.png);
+  background-image: url(../images/Bottom-background.png);
   color: hsl(0, 0%, 100%);
   padding-top: 7rem;
 }
