@@ -22,23 +22,38 @@
   color: rgb(174, 182, 187);
 }
 
-.info-container {
-  background-image: url(/images/bg-section-top-desktop-1.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .info-title {
   font-weight: 700;
 }
 
+.info-1-container {
+  background-image: url(/images/Grow-together-background.png);
+  background-repeat: no-repeat;
+  background-size: 100rem 35rem;
+  padding: 8rem 0rem 8rem 3rem;
+}
+
+.info-3-container {
+  background-image: url(/images/Users-background.png);
+  background-repeat: no-repeat;
+  background-size: 100rem 35rem;
+  padding: 3rem 0rem 8rem 3rem;
+}
+
+.final-message {
+  margin-bottom: 7rem;
+}
+
 .final-message-btn {
   background-color: hsl(322, 100%, 66%);
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .bottom-info {
-  background-color: hsl(192, 100%, 9%);
+  background-image: url(/images/Bottom-background.png);
   color: hsl(0, 0%, 100%);
+  padding-top: 7rem;
 }
 
 .bottom-btn {
