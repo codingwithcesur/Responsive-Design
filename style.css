@@ -72,3 +72,16 @@
 .social-media-icon {
   width: 2rem;
 }
+
+@media (min-width: 2500px) {
+  .container {
+    max-width: 2700px;
+    font-size: 50px;
+  }
+  .info-container {
+    width: 100%;
+  }
+  #bottom-info {
+    width: 100%;
+  }
+}
