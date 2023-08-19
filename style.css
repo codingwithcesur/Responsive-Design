@@ -26,10 +26,14 @@
   font-weight: 700;
 }
 
+.info-container {
+  width: 82rem;
+}
+
 .info-1-container {
   background-image: url(images/Grow-together-background.png);
   background-repeat: no-repeat;
-  background-size: 100rem 35rem;
+  background-size: cover;
   padding: 8rem 0rem 8rem 3rem;
 }
 
@@ -50,8 +54,11 @@
   padding-right: 6rem;
 }
 
-.bottom-info {
+#bottom-info {
   background-image: url(images/Bottom-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 82rem;
   color: hsl(0, 0%, 100%);
   padding-top: 7rem;
 }
