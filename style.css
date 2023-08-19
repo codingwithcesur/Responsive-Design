@@ -58,6 +58,8 @@
 
 .bottom-btn {
   background-color: hsl(322, 100%, 66%);
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .social-media-icon {
