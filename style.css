@@ -27,14 +27,14 @@
 }
 
 .info-1-container {
-  background-image: url(/images/Grow-together-background.png);
+  background-image: url(images/Grow-together-background.png);
   background-repeat: no-repeat;
   background-size: 100rem 35rem;
   padding: 8rem 0rem 8rem 3rem;
 }
 
 .info-3-container {
-  background-image: url(/images/Users-background.png);
+  background-image: url(images/Users-background.png);
   background-repeat: no-repeat;
   background-size: 100rem 35rem;
   padding: 3rem 0rem 8rem 3rem;
@@ -51,7 +51,7 @@
 }
 
 .bottom-info {
-  background-image: url(/images/Bottom-background.png);
+  background-image: url(images/Bottom-background.png);
   color: hsl(0, 0%, 100%);
   padding-top: 7rem;
 }
