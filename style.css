@@ -54,13 +54,16 @@
   padding-right: 6rem;
 }
 
-#bottom-info {
+.bottom-info {
   background-image: url(images/Bottom-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 82rem;
-  color: hsl(0, 0%, 100%);
   padding-top: 7rem;
+}
+
+.bottom-info .container {
+  color: white;
 }
 
 .bottom-btn {
@@ -83,5 +86,25 @@
   }
   #bottom-info {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .top-page-title {
+    font-size: 27px;
+  }
+  .top-page-info {
+    font-size: 18px;
+  }
+  .bottom-info {
+    width: 100vw;
+    padding-top: 3rem;
+  }
+  .bottom-btn {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .social-media-icon {
+    width: 1rem;
   }
 }
