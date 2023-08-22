@@ -58,7 +58,7 @@
   background-image: url(images/Bottom-background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 82rem;
+  width: 100%;
   padding-top: 7rem;
 }
 
@@ -91,20 +91,59 @@
 
 @media only screen and (max-width: 767px) {
   .top-page-title {
-    font-size: 27px;
+    font-size: 24px;
   }
   .top-page-info {
+    font-size: 16px;
+  }
+
+  .social-media-icon {
+    width: 1rem;
+  }
+
+  .info .container {
+    font-size: 12px;
+  }
+  .info .container h1 {
     font-size: 18px;
   }
+
+  .info-1-container {
+    padding: 3rem 0rem 3rem 1.8rem;
+    /* background-size: contain; */
+  }
+  .info-1-img {
+    height: 90%;
+  }
+
+  .info-3-container {
+    padding: 3rem 0rem 3rem 1.8rem;
+    background-size: cover;
+  }
+  .info-3-img {
+    height: 80%;
+  }
+
+  .final-message-btn {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
   .bottom-info {
-    width: 100vw;
+    width: 100%;
     padding-top: 3rem;
+    background-size: cover;
   }
   .bottom-btn {
     padding-left: 0rem;
     padding-right: 0rem;
   }
-  .social-media-icon {
-    width: 1rem;
+  .bottom-huddle-img {
+    height: 70%;
+    width: 90%;
+  }
+
+  .social-media-imgs img {
+    width: 2rem;
   }
 }
