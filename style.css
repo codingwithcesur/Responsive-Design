@@ -132,7 +132,8 @@
   .bottom-info {
     width: 100%;
     padding-top: 3rem;
-    background-size: cover;
+    /* background-image: url(images/Bottom-background.png); */
+    background-size: 100% 100%;
   }
   .bottom-btn {
     padding-left: 0rem;
